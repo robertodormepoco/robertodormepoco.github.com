@@ -17,9 +17,9 @@ In `_config.yml` remember to specify your own data:
     
     author :
       name : {{ site.author.name }}
-      email : blah@email.test
-      github : username
-      twitter : username
+      email : {{ site.author.email }}
+      github : {{ site.author.github }}
+      twitter : {{ site.author.twitter }}
 
 The theme should reference these variables whenever needed.
     
