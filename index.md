@@ -4,5 +4,4 @@ title: WUT?!
 ---
 {% include JB/setup %}
 
-===
-/dev/null
+<h2>/dev/null</h2>
