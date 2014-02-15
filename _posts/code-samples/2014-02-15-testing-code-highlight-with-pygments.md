@@ -1,7 +1,7 @@
 ---
 layout: post
 category : test
-tags : [code, jekyll, pygments]
+tags : [code, pygments, test]
 ---
 {% include JB/setup %}
 
@@ -22,4 +22,12 @@ class Test
     }
 }
 
+{% endhighlight %}
+
+## Ruby
+
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
 {% endhighlight %}
