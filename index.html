@@ -1,0 +1,19 @@
+---
+layout: page
+title: WUT?!
+---
+{% include JB/setup %}
+
+
+{% for post in site.posts %}
+
+    {% cycle 'open row': '<div class="span12">', nil, nil, nil %}
+
+    <div class="span3 post_block" style="background-color: ">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span class="date"> {{ post.date | date: '%d/%m/%Y' }}</span>
+    </div>
+
+    {% cycle 'close rows': nil, nil, nil, '</div>' %}
+
+{% endfor %}
