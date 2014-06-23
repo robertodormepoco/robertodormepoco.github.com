@@ -23,6 +23,12 @@ a {
    border-bottom: 1px dotted #3ec79c;
 }
 
+a:hover {
+   color: #0f3327;
+   text-decoration: none;
+   border-bottom: 1px solid #0f3327;
+}
+
 footer {
     padding-top: 5px;
     padding-bottom: 10px;
