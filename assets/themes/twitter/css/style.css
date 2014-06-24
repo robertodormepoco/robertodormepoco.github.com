@@ -1,6 +1,6 @@
 body {
     font-family: 'Advent Pro', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     background-color: #99e2cb;
     color: #0f3327;
 }
@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 .container-narrow {
   margin: 0 auto;
   max-width: 700px;
+}
+
+p {
+	letter-spacing: 1px;
 }
 
 .content {
